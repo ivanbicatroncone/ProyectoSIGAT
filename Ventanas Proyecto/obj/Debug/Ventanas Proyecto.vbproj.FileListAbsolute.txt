@@ -1,0 +1,14 @@
+c:\users\usuario\documents\visual studio 2015\Projects\Ventanas Proyecto\Ventanas Proyecto\bin\Debug\Ventanas Proyecto.exe.config
+c:\users\usuario\documents\visual studio 2015\Projects\Ventanas Proyecto\Ventanas Proyecto\bin\Debug\Ventanas Proyecto.exe
+c:\users\usuario\documents\visual studio 2015\Projects\Ventanas Proyecto\Ventanas Proyecto\bin\Debug\Ventanas Proyecto.pdb
+c:\users\usuario\documents\visual studio 2015\Projects\Ventanas Proyecto\Ventanas Proyecto\bin\Debug\Ventanas Proyecto.xml
+c:\users\usuario\documents\visual studio 2015\Projects\Ventanas Proyecto\Ventanas Proyecto\obj\Debug\Ventanas Proyecto.vbprojResolveAssemblyReference.cache
+c:\users\usuario\documents\visual studio 2015\Projects\Ventanas Proyecto\Ventanas Proyecto\obj\Debug\Ventanas_Proyecto.Bienvenida.resources
+c:\users\usuario\documents\visual studio 2015\Projects\Ventanas Proyecto\Ventanas Proyecto\obj\Debug\Ventanas_Proyecto.Resources.resources
+c:\users\usuario\documents\visual studio 2015\Projects\Ventanas Proyecto\Ventanas Proyecto\obj\Debug\Ventanas Proyecto.vbproj.GenerateResource.Cache
+c:\users\usuario\documents\visual studio 2015\Projects\Ventanas Proyecto\Ventanas Proyecto\obj\Debug\Ventanas Proyecto.exe
+c:\users\usuario\documents\visual studio 2015\Projects\Ventanas Proyecto\Ventanas Proyecto\obj\Debug\Ventanas Proyecto.xml
+c:\users\usuario\documents\visual studio 2015\Projects\Ventanas Proyecto\Ventanas Proyecto\obj\Debug\Ventanas Proyecto.pdb
+C:\Users\USUARIO\documents\visual studio 2015\Projects\Ventanas Proyecto\Ventanas Proyecto\obj\Debug\Ventanas_Proyecto.Usuario.resources
+C:\Users\USUARIO\documents\visual studio 2015\Projects\Ventanas Proyecto\Ventanas Proyecto\obj\Debug\Ventanas_Proyecto.MenuCooperativa.resources
+C:\Users\USUARIO\documents\visual studio 2015\Projects\Ventanas Proyecto\Ventanas Proyecto\obj\Debug\Ventanas_Proyecto.MenuTambo.resources
