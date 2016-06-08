@@ -1,0 +1,10 @@
+C:\Users\Proyecto\Desktop\Ventanaurusuario\Ventanaurusuario\bin\Debug\Ventanaurusuario.exe
+C:\Users\Proyecto\Desktop\Ventanaurusuario\Ventanaurusuario\bin\Debug\Ventanaurusuario.pdb
+C:\Users\Proyecto\Desktop\Ventanaurusuario\Ventanaurusuario\bin\Debug\Ventanaurusuario.xml
+C:\Users\Proyecto\Desktop\Ventanaurusuario\Ventanaurusuario\obj\x86\Debug\Ventanaurusuario.Form1.resources
+C:\Users\Proyecto\Desktop\Ventanaurusuario\Ventanaurusuario\obj\x86\Debug\Ventanaurusuario.Resources.resources
+C:\Users\Proyecto\Desktop\Ventanaurusuario\Ventanaurusuario\obj\x86\Debug\Ventanaurusuario.vbproj.GenerateResource.Cache
+C:\Users\Proyecto\Desktop\Ventanaurusuario\Ventanaurusuario\obj\x86\Debug\Ventanaurusuario.exe
+C:\Users\Proyecto\Desktop\Ventanaurusuario\Ventanaurusuario\obj\x86\Debug\Ventanaurusuario.xml
+C:\Users\Proyecto\Desktop\Ventanaurusuario\Ventanaurusuario\obj\x86\Debug\Ventanaurusuario.pdb
+C:\Users\Proyecto\Desktop\Ventanaurusuario\Ventanaurusuario\obj\x86\Debug\Ventanaurusuario.MenuTambo.resources
