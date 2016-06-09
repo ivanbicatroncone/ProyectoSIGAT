@@ -12,3 +12,7 @@ c:\users\usuario\documents\visual studio 2015\Projects\Ventanas Proyecto\Ventana
 C:\Users\USUARIO\documents\visual studio 2015\Projects\Ventanas Proyecto\Ventanas Proyecto\obj\Debug\Ventanas_Proyecto.Usuario.resources
 C:\Users\USUARIO\documents\visual studio 2015\Projects\Ventanas Proyecto\Ventanas Proyecto\obj\Debug\Ventanas_Proyecto.MenuCooperativa.resources
 C:\Users\USUARIO\documents\visual studio 2015\Projects\Ventanas Proyecto\Ventanas Proyecto\obj\Debug\Ventanas_Proyecto.MenuTambo.resources
+C:\Users\USUARIO\Desktop\Git\Ventanas Proyecto\bin\Debug\Ventanas Proyecto.exe.config
+C:\Users\USUARIO\Desktop\Git\Ventanas Proyecto\obj\Debug\Ventanas Proyecto.exe
+C:\Users\USUARIO\Desktop\Git\Ventanas Proyecto\obj\Debug\Ventanas Proyecto.xml
+C:\Users\USUARIO\Desktop\Git\Ventanas Proyecto\obj\Debug\Ventanas Proyecto.pdb

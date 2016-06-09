@@ -72,12 +72,6 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bienvenida.Designer.vb">
-      <DependentUpon>Bienvenida.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Bienvenida.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="MenuTambo.Designer.vb">
       <DependentUpon>MenuTambo.vb</DependentUpon>
     </Compile>
@@ -114,9 +108,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Bienvenida.resx">
-      <DependentUpon>Bienvenida.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="MenuTambo.resx">
       <DependentUpon>MenuTambo.vb</DependentUpon>
     </EmbeddedResource>

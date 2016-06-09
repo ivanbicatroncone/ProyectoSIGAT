@@ -35,7 +35,7 @@ Partial Class Form1
         '
         'cmdAceptar
         '
-        Me.cmdAceptar.Location = New System.Drawing.Point(286, 262)
+        Me.cmdAceptar.Location = New System.Drawing.Point(259, 270)
         Me.cmdAceptar.Name = "cmdAceptar"
         Me.cmdAceptar.Size = New System.Drawing.Size(75, 23)
         Me.cmdAceptar.TabIndex = 0
@@ -45,7 +45,7 @@ Partial Class Form1
         'lblUsuario
         '
         Me.lblUsuario.AutoSize = True
-        Me.lblUsuario.Location = New System.Drawing.Point(101, 143)
+        Me.lblUsuario.Location = New System.Drawing.Point(74, 151)
         Me.lblUsuario.Name = "lblUsuario"
         Me.lblUsuario.Size = New System.Drawing.Size(43, 13)
         Me.lblUsuario.TabIndex = 1
@@ -54,7 +54,7 @@ Partial Class Form1
         'lblContrasenia
         '
         Me.lblContrasenia.AutoSize = True
-        Me.lblContrasenia.Location = New System.Drawing.Point(96, 187)
+        Me.lblContrasenia.Location = New System.Drawing.Point(69, 195)
         Me.lblContrasenia.Name = "lblContrasenia"
         Me.lblContrasenia.Size = New System.Drawing.Size(61, 13)
         Me.lblContrasenia.TabIndex = 2
@@ -62,14 +62,14 @@ Partial Class Form1
         '
         'txtUsuario
         '
-        Me.txtUsuario.Location = New System.Drawing.Point(200, 143)
+        Me.txtUsuario.Location = New System.Drawing.Point(173, 151)
         Me.txtUsuario.Name = "txtUsuario"
         Me.txtUsuario.Size = New System.Drawing.Size(231, 20)
         Me.txtUsuario.TabIndex = 3
         '
         'txtContraseña
         '
-        Me.txtContraseña.Location = New System.Drawing.Point(200, 184)
+        Me.txtContraseña.Location = New System.Drawing.Point(173, 192)
         Me.txtContraseña.Name = "txtContraseña"
         Me.txtContraseña.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.txtContraseña.Size = New System.Drawing.Size(231, 20)
@@ -82,7 +82,7 @@ Partial Class Form1
         Me.cmdCooperativa.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.cmdCooperativa.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.cmdCooperativa.Image = CType(resources.GetObject("cmdCooperativa.Image"), System.Drawing.Image)
-        Me.cmdCooperativa.Location = New System.Drawing.Point(324, 12)
+        Me.cmdCooperativa.Location = New System.Drawing.Point(297, 20)
         Me.cmdCooperativa.Name = "cmdCooperativa"
         Me.cmdCooperativa.Size = New System.Drawing.Size(100, 89)
         Me.cmdCooperativa.TabIndex = 7
@@ -98,7 +98,7 @@ Partial Class Form1
         Me.cmdTambo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
         Me.cmdTambo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.cmdTambo.Image = CType(resources.GetObject("cmdTambo.Image"), System.Drawing.Image)
-        Me.cmdTambo.Location = New System.Drawing.Point(205, 12)
+        Me.cmdTambo.Location = New System.Drawing.Point(178, 20)
         Me.cmdTambo.Name = "cmdTambo"
         Me.cmdTambo.Size = New System.Drawing.Size(100, 89)
         Me.cmdTambo.TabIndex = 7
