@@ -1,0 +1,12 @@
+TamboS - Usuarios
+
+Cooperativista
+
+Usuario:ibica
+Pass:1234
+
+Administrador de tambo ó auxiliar
+
+Usuario:atrias
+Pass:1234
+

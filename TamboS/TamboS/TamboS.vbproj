@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F5108A7F-20BE-4844-8BF4-68C2CE802744}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>TamboS.My.MyApplication</StartupObject>
+    <RootNamespace>TamboS</RootNamespace>
+    <AssemblyName>TamboS</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>TamboS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>TamboS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>tambos_logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bienvenida.Designer.vb">
+      <DependentUpon>Bienvenida.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bienvenida.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdministracionCooperativa.Designer.vb">
+      <DependentUpon>frmAdministracionCooperativa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdministracionCooperativa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBuscarControlLechero.Designer.vb">
+      <DependentUpon>frmBuscarControlLechero.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBuscarControlLechero.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmControlLechero.Designer.vb">
+      <DependentUpon>frmControlLechero.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmControlLechero.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIngresarControlLechero.Designer.vb">
+      <DependentUpon>frmIngresarControlLechero.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmIngresarControlLechero.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTambosCooperativa.Designer.vb">
+      <DependentUpon>frmTambosCooperativa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTambosCooperativa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEnviarAnimales.Designer.vb">
+      <DependentUpon>frmEnviarAnimales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEnviarAnimales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAgregarAnimal.Designer.vb">
+      <DependentUpon>frmAgregarAnimal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAgregarAnimal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAlimentos.Designer.vb">
+      <DependentUpon>frmAlimentos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAlimentos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAnimales.Designer.vb">
+      <DependentUpon>frmAnimales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAnimales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCampoDeRecria.Designer.vb">
+      <DependentUpon>frmCampoDeRecria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCampoDeRecria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInformacionCampoDeRecria.Designer.vb">
+      <DependentUpon>frmInformacionCampoDeRecria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInformacionCampoDeRecria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInformacionLeche.Designer.vb">
+      <DependentUpon>frmInformacionLeche.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInformacionLeche.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Conexion.vb" />
+    <Compile Include="frmInformacionAnimales.Designer.vb">
+      <DependentUpon>frmInformacionAnimales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInformacionAnimales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInformaciónPersonal.Designer.vb">
+      <DependentUpon>frmInformaciónPersonal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInformaciónPersonal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIngresarLote.Designer.vb">
+      <DependentUpon>frmIngresarLote.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmIngresarLote.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIngresarPersonal.Designer.vb">
+      <DependentUpon>frmIngresarPersonal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmIngresarPersonal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLotes.Designer.vb">
+      <DependentUpon>frmLotes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLotes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMedicamentos.Designer.vb">
+      <DependentUpon>frmMedicamentos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMedicamentos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuCooperativa.Designer.vb">
+      <DependentUpon>frmMenuCooperativa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenuCooperativa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuTambo.Designer.vb">
+      <DependentUpon>frmMenuTambo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenuTambo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModificarAnimal.Designer.vb">
+      <DependentUpon>frmModificarAnimal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmModificarAnimal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInformaciónLotes.Designer.vb">
+      <DependentUpon>frmInformaciónLotes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInformaciónLotes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPersonal.Designer.vb">
+      <DependentUpon>frmPersonal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPersonal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInformacionTambos.Designer.vb">
+      <DependentUpon>frmInformacionTambos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInformacionTambos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="frmOrdeñe.Designer.vb">
+      <DependentUpon>frmOrdeñe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOrdeñe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmParametros.Designer.vb">
+      <DependentUpon>frmParametros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmParametros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProduccion.Designer.vb">
+      <DependentUpon>frmProduccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmProduccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVinculacionCR.Designer.vb">
+      <DependentUpon>frmVinculacionCR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVinculacionCR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRecibirAnimales.Designer.vb">
+      <DependentUpon>frmRecibirAnimales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRecibirAnimales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReproduccion.Designer.vb">
+      <DependentUpon>frmReproduccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmReproduccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bienvenida.resx">
+      <DependentUpon>Bienvenida.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdministracionCooperativa.resx">
+      <DependentUpon>frmAdministracionCooperativa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBuscarControlLechero.resx">
+      <DependentUpon>frmBuscarControlLechero.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmControlLechero.resx">
+      <DependentUpon>frmControlLechero.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIngresarControlLechero.resx">
+      <DependentUpon>frmIngresarControlLechero.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTambosCooperativa.resx">
+      <DependentUpon>frmTambosCooperativa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEnviarAnimales.resx">
+      <DependentUpon>frmEnviarAnimales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAgregarAnimal.resx">
+      <DependentUpon>frmAgregarAnimal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAlimentos.resx">
+      <DependentUpon>frmAlimentos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAnimales.resx">
+      <DependentUpon>frmAnimales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCampoDeRecria.resx">
+      <DependentUpon>frmCampoDeRecria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInformacionCampoDeRecria.resx">
+      <DependentUpon>frmInformacionCampoDeRecria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInformacionLeche.resx">
+      <DependentUpon>frmInformacionLeche.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInformacionAnimales.resx">
+      <DependentUpon>frmInformacionAnimales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInformaciónLotes.resx">
+      <DependentUpon>frmInformaciónLotes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInformaciónPersonal.resx">
+      <DependentUpon>frmInformaciónPersonal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIngresarLote.resx">
+      <DependentUpon>frmIngresarLote.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIngresarPersonal.resx">
+      <DependentUpon>frmIngresarPersonal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLotes.resx">
+      <DependentUpon>frmLotes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMedicamentos.resx">
+      <DependentUpon>frmMedicamentos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenuCooperativa.resx">
+      <DependentUpon>frmMenuCooperativa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenuTambo.resx">
+      <DependentUpon>frmMenuTambo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModificarAnimal.resx">
+      <DependentUpon>frmModificarAnimal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPersonal.resx">
+      <DependentUpon>frmPersonal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInformacionTambos.resx">
+      <DependentUpon>frmInformacionTambos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOrdeñe.resx">
+      <DependentUpon>frmOrdeñe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmParametros.resx">
+      <DependentUpon>frmParametros.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProduccion.resx">
+      <DependentUpon>frmProduccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVinculacionCR.resx">
+      <DependentUpon>frmVinculacionCR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecibirAnimales.resx">
+      <DependentUpon>frmRecibirAnimales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReproduccion.resx">
+      <DependentUpon>frmReproduccion.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="tambos_logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ADODB">
+      <Guid>{2A75196C-D9EB-4129-B803-931327F72D5C}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

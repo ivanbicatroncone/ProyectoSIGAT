@@ -1,0 +1,183 @@
+C:\Users\Proyecto\Desktop\24062016\TamboS\TamboS\bin\Debug\TamboS.exe
+C:\Users\Proyecto\Desktop\24062016\TamboS\TamboS\bin\Debug\TamboS.pdb
+C:\Users\Proyecto\Desktop\24062016\TamboS\TamboS\bin\Debug\TamboS.xml
+C:\Users\Proyecto\Desktop\24062016\TamboS\TamboS\obj\x86\Debug\TamboS.Resources.resources
+C:\Users\Proyecto\Desktop\24062016\TamboS\TamboS\obj\x86\Debug\TamboS.vbproj.GenerateResource.Cache
+C:\Users\Proyecto\Desktop\24062016\TamboS\TamboS\obj\x86\Debug\TamboS.exe
+C:\Users\Proyecto\Desktop\24062016\TamboS\TamboS\obj\x86\Debug\TamboS.xml
+C:\Users\Proyecto\Desktop\24062016\TamboS\TamboS\obj\x86\Debug\TamboS.pdb
+C:\Users\Proyecto\Desktop\24062016\TamboS\TamboS\obj\x86\Debug\Interop.ADODB.dll
+C:\Users\Proyecto\Desktop\24062016\TamboS\TamboS\obj\x86\Debug\TamboS.vbproj.ResolveComReference.cache
+C:\Users\Proyecto\Desktop\24062016\TamboS\TamboS\obj\x86\Debug\TamboS.MenuCooperativa.resources
+C:\Users\Proyecto\Desktop\24062016\TamboS\TamboS\obj\x86\Debug\TamboS.MenuTambo.resources
+C:\Users\Proyecto\Desktop\24062016\TamboS\TamboS\obj\x86\Debug\TamboS.Animales.resources
+C:\Users\Proyecto\Desktop\24062016\TamboS\TamboS\obj\x86\Debug\TamboS.Login.resources
+C:\Users\Proyecto\Desktop\24062016\TamboS\TamboS\obj\x86\Debug\TamboS.AgregarAnimal.resources
+C:\Users\Proyecto\Desktop\24062016\TamboS\TamboS\obj\x86\Debug\TamboS.ModificarAnimal.resources
+C:\Users\Proyecto\Desktop\24062016\TamboS\TamboS\obj\x86\Debug\TamboS.Alimentos.resources
+C:\Users\Proyecto\Desktop\24062016\TamboS\TamboS\obj\x86\Debug\TamboS.Medicamentos.resources
+C:\Users\Proyecto\Desktop\24062016\TamboS\TamboS\obj\x86\Debug\TamboS.IngresarLote.resources
+C:\Users\Proyecto\Desktop\24062016\TamboS\TamboS\obj\x86\Debug\TamboS.Produccion.resources
+C:\Users\Alumno.LAB1_PC\Desktop\TamboS\TamboS\obj\x86\Debug\Interop.ADODB.dll
+C:\Users\Alumno.LAB1_PC\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.vbproj.ResolveComReference.cache
+C:\Users\Alumno.LAB1_PC\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.exe
+C:\Users\Alumno.LAB1_PC\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.xml
+C:\Users\Alumno.LAB1_PC\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.pdb
+C:\Users\Alumno.LAB1_PC\Desktop\TamboS\TamboS\bin\Debug\TamboS.exe
+C:\Users\Alumno.LAB1_PC\Desktop\TamboS\TamboS\bin\Debug\TamboS.pdb
+C:\Users\Alumno.LAB1_PC\Desktop\TamboS\TamboS\bin\Debug\TamboS.xml
+C:\Users\Alumno.LAB1_PC\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.Resources.resources
+C:\Users\Alumno.LAB1_PC\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.vbproj.GenerateResource.Cache
+C:\Users\Alumno.LAB1_PC\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmEnviarAnimales.resources
+C:\Users\Alumno.LAB1_PC\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmAgregarAnimal.resources
+C:\Users\Alumno.LAB1_PC\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmAlimentos.resources
+C:\Users\Alumno.LAB1_PC\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmAnimales.resources
+C:\Users\Alumno.LAB1_PC\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmCampoDeRecria.resources
+C:\Users\Alumno.LAB1_PC\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmInfoCR.resources
+C:\Users\Alumno.LAB1_PC\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmInformacionLeche.resources
+C:\Users\Alumno.LAB1_PC\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmInformacionAnimales.resources
+C:\Users\Alumno.LAB1_PC\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmIngresarLote.resources
+C:\Users\Alumno.LAB1_PC\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmLogin.resources
+C:\Users\Alumno.LAB1_PC\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmLotes.resources
+C:\Users\Alumno.LAB1_PC\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmMedicamentos.resources
+C:\Users\Alumno.LAB1_PC\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmMenuCooperativa.resources
+C:\Users\Alumno.LAB1_PC\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmMenuTambo.resources
+C:\Users\Alumno.LAB1_PC\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmModificarAnimal.resources
+C:\Users\Alumno.LAB1_PC\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmOrdeñe.resources
+C:\Users\Alumno.LAB1_PC\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmParametros.resources
+C:\Users\Alumno.LAB1_PC\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmProduccion.resources
+C:\Users\Alumno.LAB1_PC\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.FrmVinculacionCR.resources
+C:\Users\Alumno.LAB1_PC\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmRecibirAnimales.resources
+C:\Users\Alumno.LAB1_PC\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmReproduccion.resources
+C:\Users\Alumno.LAB1_PC\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.Bienvenida.resources
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.vbproj.ResolveComReference.cache
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.exe
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.xml
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.pdb
+C:\Users\USUARIO\Desktop\TamboS\TamboS\bin\Debug\TamboS.exe
+C:\Users\USUARIO\Desktop\TamboS\TamboS\bin\Debug\TamboS.pdb
+C:\Users\USUARIO\Desktop\TamboS\TamboS\bin\Debug\TamboS.xml
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.Bienvenida.resources
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmEnviarAnimales.resources
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmAgregarAnimal.resources
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmAlimentos.resources
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmAnimales.resources
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmCampoDeRecria.resources
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmInformacionLeche.resources
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmInformacionAnimales.resources
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmIngresarLote.resources
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmLogin.resources
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmLotes.resources
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmMedicamentos.resources
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmMenuCooperativa.resources
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmMenuTambo.resources
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmModificarAnimal.resources
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.Resources.resources
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmOrdeñe.resources
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmParametros.resources
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmProduccion.resources
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.FrmVinculacionCR.resources
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmRecibirAnimales.resources
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmReproduccion.resources
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.vbproj.GenerateResource.Cache
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmInformaciónLotes.resources
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmAdministracionCooperativa.resources
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmPersonal.resources
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmInformaciónPersonal.resources
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmIngresarPersonal.resources
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmTambosCooperativa.resources
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmInformacionTambos.resources
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmBuscarControlLechero.resources
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmControlLechero.resources
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmIngresarControlLechero.resources
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.frmInformacionCampoDeRecria.resources
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.vbproj.ResolveComReference.cache
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.exe
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.xml
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.pdb
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\bin\Debug\TamboS.exe
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\bin\Debug\TamboS.pdb
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\bin\Debug\TamboS.xml
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.vbprojResolveAssemblyReference.cache
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.Bienvenida.resources
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.frmAdministracionCooperativa.resources
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.frmBuscarControlLechero.resources
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.frmControlLechero.resources
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.frmIngresarControlLechero.resources
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.frmTambosCooperativa.resources
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.frmEnviarAnimales.resources
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.frmAgregarAnimal.resources
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.frmAlimentos.resources
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.frmAnimales.resources
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.frmCampoDeRecria.resources
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.frmInformacionCampoDeRecria.resources
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.frmInformacionLeche.resources
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.frmInformacionAnimales.resources
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.frmInformaciónLotes.resources
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.frmInformaciónPersonal.resources
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.frmIngresarLote.resources
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.frmIngresarPersonal.resources
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.frmLogin.resources
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.frmLotes.resources
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.frmMedicamentos.resources
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.frmMenuCooperativa.resources
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.frmMenuTambo.resources
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.frmModificarAnimal.resources
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.frmPersonal.resources
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.frmInformacionTambos.resources
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.Resources.resources
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.frmOrdeñe.resources
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.frmParametros.resources
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.frmProduccion.resources
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.FrmVinculacionCR.resources
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.frmRecibirAnimales.resources
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.frmReproduccion.resources
+C:\Users\USUARIO\Desktop\TamboS - Copy\TamboS\obj\x86\Debug\TamboS.vbproj.GenerateResource.Cache
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.vbproj.ResolveComReference.cache
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.exe
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.xml
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.pdb
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\bin\Debug\TamboS.exe
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\bin\Debug\TamboS.pdb
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\bin\Debug\TamboS.xml
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.vbprojResolveAssemblyReference.cache
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.Bienvenida.resources
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.frmAdministracionCooperativa.resources
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.frmBuscarControlLechero.resources
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.frmControlLechero.resources
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.frmIngresarControlLechero.resources
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.frmTambosCooperativa.resources
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.frmEnviarAnimales.resources
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.frmAgregarAnimal.resources
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.frmAlimentos.resources
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.frmAnimales.resources
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.frmCampoDeRecria.resources
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.frmInformacionCampoDeRecria.resources
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.frmInformacionLeche.resources
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.frmInformacionAnimales.resources
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.frmInformaciónLotes.resources
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.frmInformaciónPersonal.resources
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.frmIngresarLote.resources
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.frmIngresarPersonal.resources
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.frmLogin.resources
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.frmLotes.resources
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.frmMedicamentos.resources
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.frmMenuCooperativa.resources
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.frmMenuTambo.resources
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.frmModificarAnimal.resources
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.frmPersonal.resources
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.frmInformacionTambos.resources
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.Resources.resources
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.frmOrdeñe.resources
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.frmParametros.resources
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.frmProduccion.resources
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.FrmVinculacionCR.resources
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.frmRecibirAnimales.resources
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.frmReproduccion.resources
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.vbproj.GenerateResource.Cache
+C:\Users\Camilo\UTU 3\Programacion\TamboS ultimo\TamboS\obj\x86\Debug\TamboS.SplashScreen1.resources
+C:\Users\USUARIO\Desktop\TamboS\TamboS\obj\x86\Debug\TamboS.vbprojResolveAssemblyReference.cache
+C:\Users\USUARIO\Desktop\Proyecto SIGAT\Programación\TamboS\TamboS\obj\x86\Debug\TamboS.vbproj.ResolveComReference.cache
+C:\Users\USUARIO\Desktop\Proyecto SIGAT\Programación\TamboS\TamboS\obj\x86\Debug\TamboS.exe
+C:\Users\USUARIO\Desktop\Proyecto SIGAT\Programación\TamboS\TamboS\obj\x86\Debug\TamboS.xml
+C:\Users\USUARIO\Desktop\Proyecto SIGAT\Programación\TamboS\TamboS\obj\x86\Debug\TamboS.pdb
