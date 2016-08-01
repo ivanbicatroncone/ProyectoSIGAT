@@ -1,0 +1,806 @@
+{ DATABASE exore  delimiter | }
+
+grant dba to "ibica";
+grant dba to "atrias";
+grant dba to "caramburu";
+grant dba to "jjurado";
+grant dba to "samorin";
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+{ TABLE "atrias".animal row size = 112 number of columns = 12 index size = 18 }
+{ unload file name = anima00106.unl number of rows = 0 }
+
+create table "atrias".animal 
+  (
+    id_animal integer not null ,
+    id_pais char(20) not null ,
+    hor_mov datetime hour to second not null ,
+    fecha_mov date not null ,
+    mov char(20) not null ,
+    id_padre integer,
+    id_madre integer,
+    fechnacimiento date not null ,
+    animal_nombre char(20),
+    animal_raza char(20) not null ,
+    animal_edad integer not null ,
+    tambo_id integer not null ,
+    primary key (id_animal)  constraint "atrias".pk_animal
+  );
+revoke all on "atrias".animal from "public";
+
+{ TABLE "atrias".tambo row size = 132 number of columns = 6 index size = 9 }
+{ unload file name = tambo00107.unl number of rows = 0 }
+
+create table "atrias".tambo 
+  (
+    tambo_id integer not null ,
+    tambo_nombre char(20) not null ,
+    tamb_calle char(50) not null ,
+    tamb_esq char(50) not null ,
+    tamb_nropuert integer not null ,
+    tambo_litrosdia integer not null ,
+    primary key (tambo_id)  constraint "atrias".pktambo
+  );
+revoke all on "atrias".tambo from "public";
+
+{ TABLE "atrias".tambo_tel row size = 8 number of columns = 2 index size = 9 }
+{ unload file name = tambo00108.unl number of rows = 0 }
+
+create table "atrias".tambo_tel 
+  (
+    tambo_id integer not null ,
+    tel integer not null ,
+    primary key (tambo_id)  constraint "atrias".pktambo_tel
+  );
+revoke all on "atrias".tambo_tel from "public";
+
+{ TABLE "atrias".usuarios row size = 108 number of columns = 7 index size = 34 }
+{ unload file name = usuar00109.unl number of rows = 5 }
+
+create table "atrias".usuarios 
+  (
+    usu_login char(20) not null ,
+    usu_ci integer not null ,
+    usu_primnombr char(20) not null ,
+    usu_segnombr char(20),
+    usu_primape char(20) not null ,
+    usu_segape char(20),
+    rol_id integer not null ,
+    primary key (usu_login)  constraint "atrias".pk_usuarios
+  );
+revoke all on "atrias".usuarios from "public";
+
+{ TABLE "atrias".usuarios_usu_tel row size = 24 number of columns = 2 index size 
+              = 25 }
+{ unload file name = usuar00110.unl number of rows = 0 }
+
+create table "atrias".usuarios_usu_tel 
+  (
+    usu_login char(20) not null ,
+    usu_tel integer not null ,
+    primary key (usu_login)  constraint "atrias".pkusuarios_usu_tel
+  );
+revoke all on "atrias".usuarios_usu_tel from "public";
+
+{ TABLE "atrias".cooperativa row size = 134 number of columns = 5 index size = 9 
+              }
+{ unload file name = coope00111.unl number of rows = 0 }
+
+create table "atrias".cooperativa 
+  (
+    coop_id integer not null ,
+    coop_nombre char(20) not null ,
+    coop_calle char(50) not null ,
+    coop_esq char(50) not null ,
+    coop_nropuert char(10) not null ,
+    primary key (coop_id)  constraint "atrias".pkcooperativa
+  );
+revoke all on "atrias".cooperativa from "public";
+
+{ TABLE "atrias".cooperativa_cooptel row size = 8 number of columns = 2 index size 
+              = 9 }
+{ unload file name = coope00112.unl number of rows = 0 }
+
+create table "atrias".cooperativa_cooptel 
+  (
+    coop_id integer not null ,
+    coop_tel integer not null ,
+    primary key (coop_id)  constraint "atrias".pkcooperativa_cooptel
+  );
+revoke all on "atrias".cooperativa_cooptel from "public";
+
+{ TABLE "ibica".parametrotambo row size = 36 number of columns = 9 index size = 9 
+              }
+{ unload file name = param00113.unl number of rows = 0 }
+
+create table "ibica".parametrotambo 
+  (
+    parametro_id integer not null ,
+    parametro_fechcamb date not null ,
+    parametro_horcamb datetime hour to second not null ,
+    cantmaxvacord integer,
+    cantmaxvaclot integer,
+    parametro_hect integer,
+    cantvacmax integer,
+    parametro_horaordenie1 datetime hour to second,
+    parametro_horaordenie2 datetime hour to second,
+    primary key (parametro_id)  constraint "ibica".pk_parametrotambo
+  );
+revoke all on "ibica".parametrotambo from "public";
+
+{ TABLE "ibica".estado row size = 24 number of columns = 2 index size = 9 }
+{ unload file name = estad00114.unl number of rows = 0 }
+
+create table "ibica".estado 
+  (
+    estado_id integer not null ,
+    estado_nombre char(20) not null ,
+    primary key (estado_id)  constraint "ibica".pk_estado
+  );
+revoke all on "ibica".estado from "public";
+
+{ TABLE "ibica".controllechero row size = 20 number of columns = 5 index size = 9 
+              }
+{ unload file name = contr00115.unl number of rows = 0 }
+
+create table "ibica".controllechero 
+  (
+    contrlech_id integer not null ,
+    contrlech_fech date not null ,
+    contrlech_prote integer not null ,
+    contrlech_grasas integer not null ,
+    contrlech_celsomat integer not null ,
+    primary key (contrlech_id)  constraint "ibica".pk_controllechero
+  );
+revoke all on "ibica".controllechero from "public";
+
+{ TABLE "ibica".lote row size = 8 number of columns = 2 index size = 9 }
+{ unload file name = lote_00116.unl number of rows = 0 }
+
+create table "ibica".lote 
+  (
+    lot_id integer not null ,
+    lot_litrdia integer not null ,
+    primary key (lot_id)  constraint "ibica".pk_lote
+  );
+revoke all on "ibica".lote from "public";
+
+{ TABLE "ibica".vaca row size = 32 number of columns = 4 index size = 9 }
+{ unload file name = vaca_00117.unl number of rows = 0 }
+
+create table "ibica".vaca 
+  (
+    vaca_id integer not null ,
+    vaca_partos integer,
+    vaca_categ char(20),
+    vaca_litrosdia integer,
+    primary key (vaca_id)  constraint "ibica".pk_vaca
+  );
+revoke all on "ibica".vaca from "public";
+
+{ TABLE "ibica".toro row size = 4 number of columns = 1 index size = 9 }
+{ unload file name = toro_00118.unl number of rows = 0 }
+
+create table "ibica".toro 
+  (
+    toro_id integer not null ,
+    primary key (toro_id)  constraint "ibica".pk_toro
+  );
+revoke all on "ibica".toro from "public";
+
+{ TABLE "jjurado".leche row size = 24 number of columns = 6 index size = 9 }
+{ unload file name = leche00119.unl number of rows = 0 }
+
+create table "jjurado".leche 
+  (
+    leche_fecha date not null ,
+    leche_proteinas integer not null ,
+    leche_grasas integer not null ,
+    leche_celsomat integer not null ,
+    leche_litrosdia integer not null ,
+    leche_urea integer not null ,
+    primary key (leche_fecha)  constraint "jjurado".pk_leche
+  );
+revoke all on "jjurado".leche from "public";
+
+{ TABLE "jjurado".alimentos row size = 48 number of columns = 4 index size = 9 }
+{ unload file name = alime00120.unl number of rows = 0 }
+
+create table "jjurado".alimentos 
+  (
+    ali_idtipo integer not null ,
+    ali_cant integer not null ,
+    ali_nombre char(20) not null ,
+    ali_tipo char(20) not null ,
+    primary key (ali_idtipo)  constraint "jjurado".pk_ali
+  );
+revoke all on "jjurado".alimentos from "public";
+
+{ TABLE "jjurado".secado row size = 58 number of columns = 3 index size = 9 }
+{ unload file name = secad00121.unl number of rows = 0 }
+
+create table "jjurado".secado 
+  (
+    sec_id integer not null ,
+    sec_caus char(50) not null ,
+    sec_fechini date not null ,
+    primary key (sec_id)  constraint "jjurado".pk_sec
+  );
+revoke all on "jjurado".secado from "public";
+
+{ TABLE "jjurado".rol row size = 24 number of columns = 2 index size = 9 }
+{ unload file name = rol__00122.unl number of rows = 4 }
+
+create table "jjurado".rol 
+  (
+    rol_id integer not null ,
+    rol_nombre char(20) not null ,
+    primary key (rol_id)  constraint "jjurado".pk_rol
+  );
+revoke all on "jjurado".rol from "public";
+
+{ TABLE "jjurado".campo_de_recria row size = 68 number of columns = 5 index size 
+              = 9 }
+{ unload file name = campo00124.unl number of rows = 0 }
+
+create table "jjurado".campo_de_recria 
+  (
+    camprec_id integer not null ,
+    camprec_calle char(20) not null ,
+    camprec_esq char(20),
+    camprec_nropuert integer,
+    camprec_nombre char(20),
+    primary key (camprec_id)  constraint "jjurado".pk_campo_de_recria
+  );
+revoke all on "jjurado".campo_de_recria from "public";
+
+{ TABLE "jjurado".campo_de_recria_tel row size = 8 number of columns = 2 index size 
+              = 9 }
+{ unload file name = campo00125.unl number of rows = 0 }
+
+create table "jjurado".campo_de_recria_tel 
+  (
+    camprec_id integer not null ,
+    camprec_tel integer,
+    primary key (camprec_id)  constraint "jjurado".pk_campo_de_recria_tel
+  );
+revoke all on "jjurado".campo_de_recria_tel from "public";
+
+{ TABLE "jjurado".cria row size = 24 number of columns = 2 index size = 9 }
+{ unload file name = cria_00126.unl number of rows = 0 }
+
+create table "jjurado".cria 
+  (
+    id_animal integer not null ,
+    cria_sexo char(20) not null ,
+    primary key (id_animal)  constraint "jjurado".pk_cria
+  );
+revoke all on "jjurado".cria from "public";
+
+{ TABLE "caramburu".tienen row size = 8 number of columns = 2 index size = 31 }
+{ unload file name = tiene00127.unl number of rows = 0 }
+
+create table "caramburu".tienen 
+  (
+    vaca_id integer not null ,
+    toro_id integer not null ,
+    primary key (vaca_id,toro_id)  constraint "caramburu".pk_tienen
+  );
+revoke all on "caramburu".tienen from "public";
+
+{ TABLE "caramburu".trabajan row size = 24 number of columns = 2 index size = 34 
+              }
+{ unload file name = traba00128.unl number of rows = 0 }
+
+create table "caramburu".trabajan 
+  (
+    usu_login char(20) not null ,
+    tambo_id integer not null ,
+    primary key (usu_login)  constraint "caramburu".pk_trabajan
+  );
+revoke all on "caramburu".trabajan from "public";
+
+{ TABLE "caramburu".integra row size = 8 number of columns = 2 index size = 31 }
+{ unload file name = integ00129.unl number of rows = 0 }
+
+create table "caramburu".integra 
+  (
+    tambo_id integer not null ,
+    coop_id integer not null ,
+    primary key (tambo_id,coop_id)  constraint "caramburu".pk_integra
+  );
+revoke all on "caramburu".integra from "public";
+
+{ TABLE "caramburu".posee row size = 24 number of columns = 2 index size = 34 }
+{ unload file name = posee00130.unl number of rows = 0 }
+
+create table "caramburu".posee 
+  (
+    usu_login char(20) not null ,
+    coop_id integer not null ,
+    primary key (usu_login)  constraint "caramburu".pk_posee
+  );
+revoke all on "caramburu".posee from "public";
+
+{ TABLE "caramburu".controla row size = 8 number of columns = 2 index size = 31 }
+{ unload file name = contr00131.unl number of rows = 0 }
+
+create table "caramburu".controla 
+  (
+    parametro_id integer not null ,
+    tambo_id integer not null ,
+    primary key (parametro_id,tambo_id)  constraint "caramburu".pk_controla
+  );
+revoke all on "caramburu".controla from "public";
+
+{ TABLE "caramburu".va row size = 16 number of columns = 4 index size = 31 }
+{ unload file name = va___00132.unl number of rows = 0 }
+
+create table "caramburu".va 
+  (
+    camprec_id integer not null ,
+    id_animal integer not null ,
+    rec_feching datetime hour to second not null ,
+    rec_cantenv integer not null ,
+    primary key (camprec_id,id_animal)  constraint "caramburu".pk_va
+  );
+revoke all on "caramburu".va from "public";
+
+{ TABLE "samorin".sale row size = 12 number of columns = 3 index size = 35 }
+{ unload file name = sale_00133.unl number of rows = 0 }
+
+create table "samorin".sale 
+  (
+    camprec_id integer not null ,
+    id_animal integer not null ,
+    rec_fechsal date not null ,
+    primary key (camprec_id,id_animal,rec_fechsal)  constraint "samorin".pk_sale
+  );
+revoke all on "samorin".sale from "public";
+
+{ TABLE "samorin".reproduccion row size = 32 number of columns = 4 index size = 31 
+              }
+{ unload file name = repro00134.unl number of rows = 0 }
+
+create table "samorin".reproduccion 
+  (
+    vaca_id integer not null ,
+    toro_id integer not null ,
+    repr_fecha date not null ,
+    repr_tipo char(20) not null ,
+    primary key (vaca_id,toro_id)  constraint "samorin".pk_reproduccion
+  );
+revoke all on "samorin".reproduccion from "public";
+
+{ TABLE "samorin".esta row size = 16 number of columns = 4 index size = 22 }
+{ unload file name = esta_00135.unl number of rows = 0 }
+
+create table "samorin".esta 
+  (
+    vaca_id integer not null ,
+    estado_id integer,
+    estfech_ini date,
+    estfech_fin date,
+    primary key (vaca_id,estado_id)  constraint "samorin".pk_esta
+  );
+revoke all on "samorin".esta from "public";
+
+{ TABLE "samorin".pertenece row size = 8 number of columns = 2 index size = 18 }
+{ unload file name = perte00136.unl number of rows = 0 }
+
+create table "samorin".pertenece 
+  (
+    vaca_id integer not null ,
+    lot_id integer not null ,
+    primary key (vaca_id)  constraint "samorin".pk_pertenece
+  );
+revoke all on "samorin".pertenece from "public";
+
+{ TABLE "samorin".come row size = 36 number of columns = 5 index size = 31 }
+{ unload file name = come_00137.unl number of rows = 0 }
+
+create table "samorin".come 
+  (
+    animal_id integer not null ,
+    ali_idtipo integer not null ,
+    ali_tipo char(20) not null ,
+    ali_cant integer not null ,
+    ali_fecha date,
+    primary key (animal_id,ali_idtipo)  constraint "samorin".pk_come
+  );
+revoke all on "samorin".come from "public";
+
+{ TABLE "samorin".usa row size = 86 number of columns = 6 index size = 47 }
+{ unload file name = usa__00138.unl number of rows = 0 }
+
+create table "samorin".usa 
+  (
+    id_animal integer not null ,
+    med_nombre char(20) not null ,
+    med_idtipo integer not null ,
+    med_motivo char(50) not null ,
+    med_fechini date not null ,
+    med_fechfin date,
+    primary key (id_animal,med_idtipo)  constraint "samorin".pk_usa
+  );
+revoke all on "samorin".usa from "public";
+
+{ TABLE "samorin".hace row size = 8 number of columns = 2 index size = 22 }
+{ unload file name = hace_00139.unl number of rows = 0 }
+
+create table "samorin".hace 
+  (
+    vaca_id integer not null ,
+    contrlech_id integer not null ,
+    primary key (vaca_id,contrlech_id)  constraint "samorin".pk_hace
+  );
+revoke all on "samorin".hace from "public";
+
+{ TABLE "ibica".medicamento row size = 44 number of columns = 3 index size = 25 }
+{ unload file name = medic00140.unl number of rows = 0 }
+
+create table "ibica".medicamento 
+  (
+    med_nombre char(20) not null ,
+    med_idtipo integer not null ,
+    med_tipo char(20) not null ,
+    primary key (med_nombre)  constraint "ibica".pk_medicamento
+  );
+revoke all on "ibica".medicamento from "public";
+
+
+grant select on "atrias".animal to "public" as "atrias";
+grant update on "atrias".animal to "public" as "atrias";
+grant insert on "atrias".animal to "public" as "atrias";
+grant delete on "atrias".animal to "public" as "atrias";
+grant index on "atrias".animal to "public" as "atrias";
+grant select on "atrias".tambo to "public" as "atrias";
+grant update on "atrias".tambo to "public" as "atrias";
+grant insert on "atrias".tambo to "public" as "atrias";
+grant delete on "atrias".tambo to "public" as "atrias";
+grant index on "atrias".tambo to "public" as "atrias";
+grant select on "atrias".tambo_tel to "public" as "atrias";
+grant update on "atrias".tambo_tel to "public" as "atrias";
+grant insert on "atrias".tambo_tel to "public" as "atrias";
+grant delete on "atrias".tambo_tel to "public" as "atrias";
+grant index on "atrias".tambo_tel to "public" as "atrias";
+grant select on "atrias".usuarios to "public" as "atrias";
+grant update on "atrias".usuarios to "public" as "atrias";
+grant insert on "atrias".usuarios to "public" as "atrias";
+grant delete on "atrias".usuarios to "public" as "atrias";
+grant index on "atrias".usuarios to "public" as "atrias";
+grant select on "atrias".usuarios_usu_tel to "public" as "atrias";
+grant update on "atrias".usuarios_usu_tel to "public" as "atrias";
+grant insert on "atrias".usuarios_usu_tel to "public" as "atrias";
+grant delete on "atrias".usuarios_usu_tel to "public" as "atrias";
+grant index on "atrias".usuarios_usu_tel to "public" as "atrias";
+grant select on "atrias".cooperativa to "public" as "atrias";
+grant update on "atrias".cooperativa to "public" as "atrias";
+grant insert on "atrias".cooperativa to "public" as "atrias";
+grant delete on "atrias".cooperativa to "public" as "atrias";
+grant index on "atrias".cooperativa to "public" as "atrias";
+grant select on "atrias".cooperativa_cooptel to "public" as "atrias";
+grant update on "atrias".cooperativa_cooptel to "public" as "atrias";
+grant insert on "atrias".cooperativa_cooptel to "public" as "atrias";
+grant delete on "atrias".cooperativa_cooptel to "public" as "atrias";
+grant index on "atrias".cooperativa_cooptel to "public" as "atrias";
+grant select on "ibica".parametrotambo to "public" as "ibica";
+grant update on "ibica".parametrotambo to "public" as "ibica";
+grant insert on "ibica".parametrotambo to "public" as "ibica";
+grant delete on "ibica".parametrotambo to "public" as "ibica";
+grant index on "ibica".parametrotambo to "public" as "ibica";
+grant select on "ibica".estado to "public" as "ibica";
+grant update on "ibica".estado to "public" as "ibica";
+grant insert on "ibica".estado to "public" as "ibica";
+grant delete on "ibica".estado to "public" as "ibica";
+grant index on "ibica".estado to "public" as "ibica";
+grant select on "ibica".controllechero to "public" as "ibica";
+grant update on "ibica".controllechero to "public" as "ibica";
+grant insert on "ibica".controllechero to "public" as "ibica";
+grant delete on "ibica".controllechero to "public" as "ibica";
+grant index on "ibica".controllechero to "public" as "ibica";
+grant select on "ibica".lote to "public" as "ibica";
+grant update on "ibica".lote to "public" as "ibica";
+grant insert on "ibica".lote to "public" as "ibica";
+grant delete on "ibica".lote to "public" as "ibica";
+grant index on "ibica".lote to "public" as "ibica";
+grant select on "ibica".vaca to "public" as "ibica";
+grant update on "ibica".vaca to "public" as "ibica";
+grant insert on "ibica".vaca to "public" as "ibica";
+grant delete on "ibica".vaca to "public" as "ibica";
+grant index on "ibica".vaca to "public" as "ibica";
+grant select on "ibica".toro to "public" as "ibica";
+grant update on "ibica".toro to "public" as "ibica";
+grant insert on "ibica".toro to "public" as "ibica";
+grant delete on "ibica".toro to "public" as "ibica";
+grant index on "ibica".toro to "public" as "ibica";
+grant select on "jjurado".leche to "public" as "jjurado";
+grant update on "jjurado".leche to "public" as "jjurado";
+grant insert on "jjurado".leche to "public" as "jjurado";
+grant delete on "jjurado".leche to "public" as "jjurado";
+grant index on "jjurado".leche to "public" as "jjurado";
+grant select on "jjurado".alimentos to "public" as "jjurado";
+grant update on "jjurado".alimentos to "public" as "jjurado";
+grant insert on "jjurado".alimentos to "public" as "jjurado";
+grant delete on "jjurado".alimentos to "public" as "jjurado";
+grant index on "jjurado".alimentos to "public" as "jjurado";
+grant select on "jjurado".secado to "public" as "jjurado";
+grant update on "jjurado".secado to "public" as "jjurado";
+grant insert on "jjurado".secado to "public" as "jjurado";
+grant delete on "jjurado".secado to "public" as "jjurado";
+grant index on "jjurado".secado to "public" as "jjurado";
+grant select on "jjurado".rol to "public" as "jjurado";
+grant update on "jjurado".rol to "public" as "jjurado";
+grant insert on "jjurado".rol to "public" as "jjurado";
+grant delete on "jjurado".rol to "public" as "jjurado";
+grant index on "jjurado".rol to "public" as "jjurado";
+grant select on "jjurado".campo_de_recria to "public" as "jjurado";
+grant update on "jjurado".campo_de_recria to "public" as "jjurado";
+grant insert on "jjurado".campo_de_recria to "public" as "jjurado";
+grant delete on "jjurado".campo_de_recria to "public" as "jjurado";
+grant index on "jjurado".campo_de_recria to "public" as "jjurado";
+grant select on "jjurado".campo_de_recria_tel to "public" as "jjurado";
+grant update on "jjurado".campo_de_recria_tel to "public" as "jjurado";
+grant insert on "jjurado".campo_de_recria_tel to "public" as "jjurado";
+grant delete on "jjurado".campo_de_recria_tel to "public" as "jjurado";
+grant index on "jjurado".campo_de_recria_tel to "public" as "jjurado";
+grant select on "jjurado".cria to "public" as "jjurado";
+grant update on "jjurado".cria to "public" as "jjurado";
+grant insert on "jjurado".cria to "public" as "jjurado";
+grant delete on "jjurado".cria to "public" as "jjurado";
+grant index on "jjurado".cria to "public" as "jjurado";
+grant select on "caramburu".tienen to "public" as "caramburu";
+grant update on "caramburu".tienen to "public" as "caramburu";
+grant insert on "caramburu".tienen to "public" as "caramburu";
+grant delete on "caramburu".tienen to "public" as "caramburu";
+grant index on "caramburu".tienen to "public" as "caramburu";
+grant select on "caramburu".trabajan to "public" as "caramburu";
+grant update on "caramburu".trabajan to "public" as "caramburu";
+grant insert on "caramburu".trabajan to "public" as "caramburu";
+grant delete on "caramburu".trabajan to "public" as "caramburu";
+grant index on "caramburu".trabajan to "public" as "caramburu";
+grant select on "caramburu".integra to "public" as "caramburu";
+grant update on "caramburu".integra to "public" as "caramburu";
+grant insert on "caramburu".integra to "public" as "caramburu";
+grant delete on "caramburu".integra to "public" as "caramburu";
+grant index on "caramburu".integra to "public" as "caramburu";
+grant select on "caramburu".posee to "public" as "caramburu";
+grant update on "caramburu".posee to "public" as "caramburu";
+grant insert on "caramburu".posee to "public" as "caramburu";
+grant delete on "caramburu".posee to "public" as "caramburu";
+grant index on "caramburu".posee to "public" as "caramburu";
+grant select on "caramburu".controla to "public" as "caramburu";
+grant update on "caramburu".controla to "public" as "caramburu";
+grant insert on "caramburu".controla to "public" as "caramburu";
+grant delete on "caramburu".controla to "public" as "caramburu";
+grant index on "caramburu".controla to "public" as "caramburu";
+grant select on "caramburu".va to "public" as "caramburu";
+grant update on "caramburu".va to "public" as "caramburu";
+grant insert on "caramburu".va to "public" as "caramburu";
+grant delete on "caramburu".va to "public" as "caramburu";
+grant index on "caramburu".va to "public" as "caramburu";
+grant select on "samorin".sale to "public" as "samorin";
+grant update on "samorin".sale to "public" as "samorin";
+grant insert on "samorin".sale to "public" as "samorin";
+grant delete on "samorin".sale to "public" as "samorin";
+grant index on "samorin".sale to "public" as "samorin";
+grant select on "samorin".reproduccion to "public" as "samorin";
+grant update on "samorin".reproduccion to "public" as "samorin";
+grant insert on "samorin".reproduccion to "public" as "samorin";
+grant delete on "samorin".reproduccion to "public" as "samorin";
+grant index on "samorin".reproduccion to "public" as "samorin";
+grant select on "samorin".esta to "public" as "samorin";
+grant update on "samorin".esta to "public" as "samorin";
+grant insert on "samorin".esta to "public" as "samorin";
+grant delete on "samorin".esta to "public" as "samorin";
+grant index on "samorin".esta to "public" as "samorin";
+grant select on "samorin".pertenece to "public" as "samorin";
+grant update on "samorin".pertenece to "public" as "samorin";
+grant insert on "samorin".pertenece to "public" as "samorin";
+grant delete on "samorin".pertenece to "public" as "samorin";
+grant index on "samorin".pertenece to "public" as "samorin";
+grant select on "samorin".come to "public" as "samorin";
+grant update on "samorin".come to "public" as "samorin";
+grant insert on "samorin".come to "public" as "samorin";
+grant delete on "samorin".come to "public" as "samorin";
+grant index on "samorin".come to "public" as "samorin";
+grant select on "samorin".usa to "public" as "samorin";
+grant update on "samorin".usa to "public" as "samorin";
+grant insert on "samorin".usa to "public" as "samorin";
+grant delete on "samorin".usa to "public" as "samorin";
+grant index on "samorin".usa to "public" as "samorin";
+grant select on "samorin".hace to "public" as "samorin";
+grant update on "samorin".hace to "public" as "samorin";
+grant insert on "samorin".hace to "public" as "samorin";
+grant delete on "samorin".hace to "public" as "samorin";
+grant index on "samorin".hace to "public" as "samorin";
+grant select on "ibica".medicamento to "public" as "ibica";
+grant update on "ibica".medicamento to "public" as "ibica";
+grant insert on "ibica".medicamento to "public" as "ibica";
+grant delete on "ibica".medicamento to "public" as "ibica";
+grant index on "ibica".medicamento to "public" as "ibica";
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+revoke usage on language SPL from public ;
+
+grant usage on language SPL to public ;
+
+
+
+
+
+
+alter table "samorin".esta add constraint (foreign key (vaca_id) 
+    references "ibica".vaca  constraint "samorin".fk_esta_vaca_id);
+    
+
+alter table "atrias".tambo_tel add constraint (foreign key (tambo_id) 
+    references "atrias".tambo  constraint "atrias".fktambo_tel);
+    
+
+alter table "atrias".usuarios_usu_tel add constraint (foreign 
+    key (usu_login) references "atrias".usuarios  constraint "atrias"
+    .fkusu_usuario_tel);
+
+alter table "atrias".cooperativa_cooptel add constraint (foreign 
+    key (coop_id) references "atrias".cooperativa  constraint 
+    "atrias".fkcooperativa_cooptel);
+
+alter table "ibica".vaca add constraint (foreign key (vaca_id) 
+    references "atrias".animal  constraint "ibica".fk_vaca_id);
+    
+
+alter table "jjurado".campo_de_recria_tel add constraint (foreign 
+    key (camprec_id) references "jjurado".campo_de_recria  constraint 
+    "jjurado".fk_campo_de_recria_tel_camprec_id);
+
+alter table "atrias".animal add constraint (foreign key (tambo_id) 
+    references "atrias".tambo  constraint "atrias".fk_tambo_id);
+    
+
+alter table "jjurado".cria add constraint (foreign key (id_animal) 
+    references "atrias".animal  constraint "jjurado".fk_cria_id_animal);
+    
+
+alter table "caramburu".tienen add constraint (foreign key (vaca_id) 
+    references "ibica".vaca  constraint "caramburu".fk_tienen_vaca_id);
+    
+
+alter table "caramburu".tienen add constraint (foreign key (toro_id) 
+    references "ibica".toro  constraint "caramburu".fk_tienen_toro_id);
+    
+
+alter table "caramburu".trabajan add constraint (foreign key 
+    (usu_login) references "atrias".usuarios  constraint "caramburu"
+    .fk_trabajan_usu_login);
+
+alter table "caramburu".trabajan add constraint (foreign key 
+    (tambo_id) references "atrias".tambo  constraint "caramburu"
+    .fk_trabajan_tambo_id);
+
+alter table "caramburu".integra add constraint (foreign key (tambo_id) 
+    references "atrias".tambo  constraint "caramburu".fk_integra_tambo_id);
+    
+
+alter table "caramburu".integra add constraint (foreign key (coop_id) 
+    references "atrias".cooperativa  constraint "caramburu".fk_integra_coop_id);
+    
+
+alter table "caramburu".posee add constraint (foreign key (usu_login) 
+    references "atrias".usuarios  constraint "caramburu".fk_posee_usu_login);
+    
+
+alter table "caramburu".posee add constraint (foreign key (coop_id) 
+    references "atrias".cooperativa  constraint "caramburu".fk_posee_coop_id);
+    
+
+alter table "caramburu".controla add constraint (foreign key 
+    (parametro_id) references "ibica".parametrotambo  constraint 
+    "caramburu".fk_controla_parametro_id);
+
+alter table "caramburu".controla add constraint (foreign key 
+    (tambo_id) references "atrias".tambo  constraint "caramburu"
+    .fk_controla_tambo_id);
+
+alter table "caramburu".va add constraint (foreign key (camprec_id) 
+    references "jjurado".campo_de_recria  constraint "caramburu"
+    .fk_va_camprec_id);
+
+alter table "caramburu".va add constraint (foreign key (id_animal) 
+    references "atrias".animal  constraint "caramburu".fk_va_id_animal);
+    
+
+alter table "samorin".sale add constraint (foreign key (camprec_id) 
+    references "jjurado".campo_de_recria  constraint "samorin".fk_sale_camprec_id);
+    
+
+alter table "samorin".sale add constraint (foreign key (id_animal) 
+    references "atrias".animal  constraint "samorin".fk_sale_id_animal);
+    
+
+alter table "samorin".reproduccion add constraint (foreign key 
+    (vaca_id) references "ibica".vaca  constraint "samorin".fk_reproduccion_vaca_id);
+    
+
+alter table "samorin".reproduccion add constraint (foreign key 
+    (toro_id) references "ibica".toro  constraint "samorin".fk_reproduccion_toro_id);
+    
+
+alter table "atrias".usuarios add constraint (foreign key (rol_id) 
+    references "jjurado".rol  constraint "atrias".fk_usuarios_rol_id);
+    
+
+alter table "samorin".pertenece add constraint (foreign key (vaca_id) 
+    references "ibica".vaca  constraint "samorin".fk_pertenece_vaca_id);
+    
+
+alter table "samorin".pertenece add constraint (foreign key (lot_id) 
+    references "ibica".lote  constraint "samorin".fk_pertenece_lot_id);
+    
+
+alter table "samorin".come add constraint (foreign key (animal_id) 
+    references "atrias".animal  constraint "samorin".fk_come_animal_id);
+    
+
+alter table "samorin".come add constraint (foreign key (ali_idtipo) 
+    references "jjurado".alimentos  constraint "samorin".fk_come_ali_idtipo);
+    
+
+alter table "samorin".usa add constraint (foreign key (id_animal) 
+    references "atrias".animal  constraint "samorin".fk_usa_id_animal);
+    
+
+alter table "samorin".hace add constraint (foreign key (vaca_id) 
+    references "ibica".vaca  constraint "samorin".fk_hace_vaca_id);
+    
+
+alter table "samorin".usa add constraint (foreign key (med_nombre) 
+    references "ibica".medicamento  constraint "samorin".fk_usa_med_nombre);
+    
+
+
+
+
+
+ 
+
+
+dbexport completed
+
